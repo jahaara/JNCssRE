@@ -1026,6 +1026,7 @@ li .wid100 .con_info {background:#F5F5F5; border-radius: 3px 3px 3px 3px; margin
 .ds_er{ padding:3px; font-size:11px; border-radius:3px;}
 .sig_ftr a {color:#445678;}
 .selectboxit-list .selectboxit-option-anchor{ background:#fff;}
+.post_req{ display:none;}
 /*search results new end here */
 
 
@@ -1355,7 +1356,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 @media (max-width:50em){
 .post_req{ margin:3px 0 0 0; display:block !important; float:right;}
 .post_req a{line-height:25px;  padding:1px 10px 0;}
-.contact span{ display:none;}
+.contact span{ display:none !important;}
 	}
 @media (max-width:48em){
 .div_more_filter sup{ right:33px;}
@@ -1370,9 +1371,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .ckeck_box_wrap{width:100%; padding-bottom:5px;}
 .div_comare{width:732px !important;}
 .div_more_filter sup{right:33px;}
-.post_req{ margin:3px 0 0 0; display:block !important;}
+.post_req{ margin:3px 0 0 0; display:block !important; float:right;}
 .post_req a{line-height:25px;  padding:1px 10px 0;}
-.contact span{ display:none;}
+.contact span{ display:none !important;}
 }
 @media all and (max-width:59em) and (min-width:48em) {
 .navigation_container .nav_box, .Body_wrapper .Body_container, .Body_wrapper .Body_container .featured, .property_near_you_and_ad { width:768px;}
