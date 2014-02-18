@@ -205,7 +205,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c7b95', end
 .map_slider span { width:23px; height:41px; position:absolute; top:50%; background:url(../images/sprite.png) no-repeat -145px -24px; display:block; cursor:pointer; z-index:7;}
 .map_slider_detail { height:452px; width:5px; float: left; background:#2983ad; position:relative; box-shadow:2px 0px 4px 0px rgba(0,0,0, .3);}
 .map_slider_detail span { width:23px; height:41px; position:absolute; top:50%; right:3px;z-index:1000; background:url(../images/sprite.png) no-repeat -369px -64px; display:block; cursor:pointer;}
-#map_div {float: right; width: 275px; height:468px; overflow:hidden;}
+#map_div {float: right; width: 273px; height:468px; overflow:hidden;}
 .ring { width:406px; height:400px; border:2px #00a651 solid; position:absolute; top:100px; left:105px; border-radius:1000px;}
 .ring sup { width:20px; height:20px; background: url(../images/sprite.png) no-repeat -193px -24px; position:absolute; left:50%; top:50%; margin:-10px 0 0 -10xp; cursor:all-scroll}
 .ring span { width:20px; height:20px; background: url(../images/sprite.png) no-repeat -218px -24px; position:absolute; right:-11px; top:50%; margin-top:-10px; cursor:w-resize}
@@ -303,6 +303,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .div_more_filter sup { position:absolute; top:-12px; right:60px; background:url(../images/sprite.png) no-repeat -193px -327px; width:22px; height:12px; display:block;}
 .cr_blu_but { background:#5c6a85; border:#3a4963 1px solid; color:#FFF !important; font-size:11px;}
 .ok_but { width:45px; text-align:center; padding:2px 0; display:block; float:left; margin-right:10px; border-radius:3px; font-size:12px !important; color:#69696a;}
+.ok_but:hover{ background:#5C6A85; color:#fff; border:1px solid #3A4963;}
 .filters_wrap { width:100%; float:left;}
 .filters_cont {width:48%;}
 .filters_cont2 {width:35%;}
@@ -596,9 +597,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c7b95', end
 .sign_con .sign_top p { width:100%;}
 .sign_con .sign_top p i{ width:90%;}
 .sign_con .sign_top select{width:100%; font-size:0.875em; height:38px; padding-top:8px; padding-left:4.5%;}
-.sign_con .sign_top .reg_btn{ width:39%; text-transform:uppercase; cursor:pointer; padding:2%; font-size:1.313em; color:#fff;}
+.sign_con .sign_top .reg_btn{ width:40%; text-transform:uppercase; cursor:pointer; padding:2%; font-size:1.313em; color:#fff;}
 .sig_ftr{width:90%; font-size:0.89em; color:#909090; padding:5%; text-align:center; float:left; border-top:1px solid #DBDBDB; box-shadow:1px 1px 1px #fff inset;}
-.cpy_foter{ background:#293957; font-size:0.8em; font-weight:normal; color:#fff; text-align:center; padding:13px 0; width:100%; float:left; border-top:solid 4px #fff;}
+.cpy_foter{ background:#293957; font-size:0.7em; font-weight:normal; color:#fff; text-align:center; padding:13px 0; width:100%; float:left; border-top:solid 4px #fff;}
 .sign_con .sign_top a{font-size:1.125em; font-weight:normal; color:#445678 !important; padding-left:3px; padding-top:20px; float:left;}
 
 /*Post requirement start here*/
@@ -1330,7 +1331,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .m_cntct_but_right { float: right !important;}
 .help { width:98% !important;}
 .help li { width:86% !important;}
-.hei{height:336px !important;}
+.hei{height:340px !important;}
 .lin1 {width: 34%;}
 .prop_container .left_head{ width:auto ! important;}
 .results_list, .results_list li{width:96.3%;}
@@ -1345,7 +1346,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .tabs_container .select p {padding:3px 2.2% 0 !important;}
 .mar_top15{ margin-top:15px !important;}
 .prop_container .left_head{ width:auto;}
-.bhk_vale span{margin:3px 5px 0 0;}
+.bhk_vale span{margin:1px 5px 0 0;}
 .w95 { width:94.5%;}
 .prop_form .mob{ width:79%;}
 .Body_wrapper{padding-top:0px;}
@@ -1354,6 +1355,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 @media (max-width:64.000em){.prop_wrap { background:url(../images/right_pan_bg.jpg) 69% repeat-y;}}
 @media (max-width:80.000em){.prop_wrap { background:url(../images/right_pan_bg.jpg) 69% repeat-y;}}
 @media (max-width:50em){
+.prop_wrap { background:url(../images/right_pan_bg.jpg) 64% repeat-y;}
 .post_req{ margin:3px 0 0 0; display:block !important; float:right;}
 .post_req a{line-height:25px;  padding:1px 10px 0;}
 .contact span{ display:none !important;}
@@ -1361,10 +1363,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 @media (max-width:48em){
 .div_more_filter sup{ right:33px;}
 .pd_map{width:271px ! important;}
-.flats_info span{width:113px;}
 .prop_item .price { width:39%;}
 .lf_hd{width:44% !important;}
-.prop_wrap { background:url(../images/right_pan_bg.jpg) 64% repeat-y !important;}
+.prop_wrap { background:url(../images/right_pan_bg.jpg) 64% repeat-y;}
 .pro_wid{ width:18.5%;}
 .similar_prop .info_txt{ width:152px !important;}
 .right_pan_hei{ min-height:465px;}
@@ -1417,6 +1418,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .pd_map .map_slider { height:370px;}
 .flats_info { margin-right:35px;}
 .flats_info strong { width:75px;}
+.flats_info span{width:113px;}
 .result_view, #bx-pager,.btm_callus  { display:none;}
 .post_requirement, .sel_tab{ display:none;}
 
@@ -1426,7 +1428,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .prop_form_wid select{ width:98% !important;}
 .prop_form_wid .sel1{width:49% !important;}
 .prop_form_wid .sel2{width:45.5% !important;}
-.similar_prop .info_txt{width:162px;}
+.similar_prop .info_txt{width:152px;}
 .right_pan_hei{ min-height:570px;}
 /*Post requirement contact info css here*/
 .con_info{ width:94% !important;}
